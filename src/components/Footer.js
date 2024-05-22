@@ -3,7 +3,10 @@ import styles from './Footer.module.css'
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <footer className={styles.footer}>
+            <h6>Desenvolvido por: Maria Clara Borges Cardoso</h6>
+            <h6>Blog de Beleza &copy; 2024</h6>
+        </footer>
     )
 }
 
